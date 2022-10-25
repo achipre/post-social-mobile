@@ -65,4 +65,91 @@ header p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 12px;
+}
+.buttons button{
+  width: 140px;
+  height: 36px;
+  background-color: #212121;
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  box-shadow:  20px 20px 60px #111111,
+             -20px -20px 60px #171717;
+}
+.buttons button:nth-child(2) {
+  background-color: #d83ba1;
+}
+.info {
+  width: 296px;
+  height: 48px;
+  background: linear-gradient(to top, #0b0b0b, #171717);
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  box-shadow:  20px 20px 60px #111111,
+             -20px -20px 60px #171717;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info div {
+  width: 36px;
+  height: 36px;
+  background-color: #3d3d3d;
+  border-radius: 12px;
+  margin: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.info div img {
+  width: 28px;
+  display: flex;
+  justify-content: center;
+}
+.info  p {
+  font-size: 1rem;
+}
+.info .emoji {
+  width: 90px;
+  height: 36px;
+  background-color: #3d3d3d;
+  border-radius: 12px;
+  margin: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.emoji img {
+  padding: 0 4px;
+}
+
+.acction {
+  width: 296px;
+  height: 56px;
+  margin: 12px auto ;
+  display: flex;
+  justify-content: space-around  ;
+  
+  
+}
+
+.acction img {
+  width: 56px;
+  height: 56px;
+  object-fit: fill;
+  background-color: #434343 ;
+  border-radius: 50%;
+  padding: 12px;
+  border: 1px solid rgb(159, 159, 159);
+
 }
